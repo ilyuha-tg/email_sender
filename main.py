@@ -20,7 +20,7 @@ email_name = dict(zip(list(g_form['Email']),list(g_form['First Name'])))
 print(email_name)
 for email in list(g_form['Email']):
     def send_email():
-        sender = "sikatch.ilja@gmail.com"
+        sender = "ENTER YOUR EMAIL HERE"
         receiver = email
         """Зараз за політикою google НЕ МОЖНА використовувати пароль від пошти
         https://myaccount.google.com/apppasswords - треба зареєструватися тут 
