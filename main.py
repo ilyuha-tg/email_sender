@@ -50,7 +50,7 @@ def send_email(email, email_name, g_form):
     try:
         if email_value == True:
             try:
-                 with open('my_letter.html', 'r', encoding='utf-8') as file:
+                 with open('fail.html', 'r', encoding='utf-8') as file:
                      text = file.read().format(name=name)
             except IOError:
                 return "File does not found"
